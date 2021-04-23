@@ -1,9 +1,20 @@
 body{
     margin: 0;
 }
+
+#logo img {
+    width: 320px;
+    margin-top: -10px;
+    }
+#products{
+    text-align: center;
+    list-style: none;
+}
+
 h1{
     text-align: center;
     color: darkslategray;
+    
 }
 a{
     list-style: none;
