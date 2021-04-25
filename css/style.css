@@ -38,7 +38,7 @@ button{
     padding: 10px 20px;
     background-color: darkslategray;
     color: white;
-    border: none;
+    border: 25px;
     cursor: pointer;
     font-weight: 500;
 }
