@@ -19,9 +19,10 @@ function allProducts (products) {
         myProducts += `
         <li>
             <a href="product.html?id=${product.id}">
-                ${product.images}
-                ${product.name}
-                ${product.price_html}
+            <img src="${product.images[0].src}" alt=${product.name}">
+            <h2>${product.name}</h2>
+            <p>${product.price_html}</p>
+
                 
                 
                 
